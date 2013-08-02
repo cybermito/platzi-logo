@@ -1,0 +1,123 @@
+body {
+	margin: 0; /* eliminamos el margin del body */
+	text-align: center; /* centramos el contenido */
+}
+/* caja de fondo gris oscuro arriba a la izquierda */
+#caja_1 {
+	background: #313131; /* ponemos el fondo en gris oscuro */
+	height: 50px; /* definimos el alto en 50px */
+	left: 50px; /* colocamos el div a 50px del borde izquierdo */
+	position: absolute; /* le indicamos que use posiciones absolutas*/
+	top: 25px; /* colocamos el div a 25px del borde superior*/
+	width: 50px; /* definimos el ancho en 50px */
+	z-index: 1; /* definimos un z-index 1 para que este elemento quede debajo de todos los demás */
+}
+/* caja de fondo blanco que corta a la mitad la caja_1 de forma diagonal */
+#caja_2 {
+	background: white;
+	height: 75px; /* definimos el alto en 75px */
+	left: 12.5px; /* colocamos el div a 12.5px del borde izquierdo */
+	position: absolute; /* le indicamos que use posiciones absolutas*/
+	transform: rotate(45deg); /* propiedad css3 que rota el elemento en 45° */
+	-ms-transform: rotate(45deg); /* propiedad css3 que rota el elemento en 45° con prefijo para IE*/
+	-webkit-transform: rotate(45deg); /* propiedad css3 que rota el elemento en 45° con prefijo para webkit*/
+	top: -10px; /* colocamos el div a -10px del borde superior*/
+	width: 75px; /* definimos el ancho en 75px */
+	z-index: 2; /* definimos un z-index 2 para que este elemento quede sobre el z-index 1 y debajo de z-index 3 */
+}
+/* caja de fondo amarillo oscuro arriba a la derecha */
+#caja_3 {
+	background: #dead12;
+	height: 50px; /* definimos el alto en 50px */
+	right: 50px; /* colocamos el div a 50px del borde izquierdo */
+	position: absolute; /* le indicamos que use posiciones absolutas*/
+	top: 25px; /* colocamos el div a 25px del borde superior*/
+	width: 50px; /* definimos el ancho en 50px */
+	z-index: 1; /* definimos un z-index 1 para que este elemento quede debajo de todos los demás */
+}
+/* caja de fondo blanco que corta a la mitad la caja_3 de forma diagonal */
+#caja_4 {
+	background: white;
+	height: 75px; /* definimos el alto en 75px */
+	position: absolute; /* le indicamos que use posiciones absolutas*/
+	right: 12.5px; /* colocamos el div a 12.5px del borde izquierdo */
+	transform: rotate(315deg); /* propiedad css3 que rota el elemento en 315° */
+	-ms-transform: rotate(315deg); /* propiedad css3 que rota el elemento en 315° con prefijo para IE*/
+	-webkit-transform: rotate(315deg); /* propiedad css3 que rota el elemento en 315° con prefijo para webkit */
+	top: -10px; /* colocamos el div a -10px del borde superior*/
+	width: 75px; /* definimos el ancho en 75px */
+	z-index: 2; /* definimos un z-index 2 para que este elemento quede sobre el z-index 1 y debajo de z-index 3 */
+}
+/* caja de fondo gris ubicada en el medio a la izquierda */
+#caja_5 {
+	background: #4d4d4d;
+	height: 50px; /* definimos el alto en 50px */
+	left: 30px; /* colocamos el div a 30px del borde izquierdo */
+	position: absolute; /* le indicamos que use posiciones absolutas*/
+	top: 75px; /* colocamos el div a 75px del borde superior*/
+	width: 50px; /* definimos el ancho en 50px */
+	z-index: 3; /* definimos un z-index 1 para que este elemento quede encima de todos los demás */
+}
+/* caja de fondo amarillo ubicada en el medio a la izquierda */
+#caja_6 {
+	background: #ffd704;
+	height: 50px; /* definimos el alto en 50px */
+	position: absolute; /* le indicamos que use posiciones absolutas*/
+	right: 30px; /* colocamos el div a 30px del borde derecho */
+	top: 75px; /* colocamos el div a 75px del borde superior*/
+	width: 50px; /* definimos el ancho en 50px */
+	z-index: 3; /* definimos un z-index 1 para que este elemento quede encima de todos los demás */
+}
+/* caja de fondo gris oscuro abajo a la izquierda */
+#caja_7 {
+	background: #313131;
+	bottom: 25px; /* colocamos el div a 25px del borde inferior*/
+	height: 50px; /* definimos el alto en 50px */
+	left: 50px; /* colocamos el div a 50px del borde izquierdo */
+	position: absolute; /* le indicamos que use posiciones absolutas*/
+	width: 50px; /* definimos el ancho en 50px */
+	z-index: 1; /* definimos un z-index 1 para que este elemento quede debajo de todos los demás */
+}
+/* caja de fondo blanco que corta a la mitad la caja_7 de forma diagonal */
+#caja_8 {
+	background: white;
+	bottom: -10px; /* colocamos el div a -10px del borde inferior*/
+	height: 75px; /* definimos el alto en 75px */
+	left: 12.5px; /* colocamos el div a 12.5px del borde izquierdo */
+	position: absolute; /* le indicamos que use posiciones absolutas*/
+	transform: rotate(315deg); /* propiedad css3 que rota el elemento en 315° */
+	-ms-transform: rotate(315deg); /* propiedad css3 que rota el elemento en 315° con prefijo para IE*/
+	-webkit-transform: rotate(315deg); /* propiedad css3 que rota el elemento en 315° con prefijo para webkit */
+	width: 75px; /* definimos el ancho en 75px */
+	z-index: 2; /* definimos un z-index 2 para que este elemento quede sobre el z-index 1 y debajo de z-index 3 */
+}
+/* caja de fondo amarillo oscuro abajo a la derecha */
+#caja_9 {
+	background: #dead12;
+	bottom: 25px; /* colocamos el div a 25px del borde inferior*/
+	height: 50px; /* definimos el alto en 50px */
+	right: 50px; /* colocamos el div a 50px del borde derecho */
+	position: absolute; /* le indicamos que use posiciones absolutas*/
+	width: 50px; /* definimos el ancho en 50px */
+	z-index: 1; /* definimos un z-index 1 para que este elemento quede debajo de todos los demás */
+}
+/* caja de fondo blanco que corta a la mitad la caja_9 de forma diagonal */
+#caja_10 {
+	background: white;
+	bottom: -10px; /* colocamos el div a -10px del borde inferior*/
+	height: 75px; /* definimos el alto en 75px */
+	position: absolute; /* le indicamos que use posiciones absolutas*/
+	right: 12.5px; /* colocamos el div a 12.5px del borde derecho */
+	transform: rotate(45deg); /* propiedad css3 que rota el elemento en 45° */
+	-ms-transform: rotate(45deg); /* propiedad css3 que rota el elemento en 45° con prefijo para IE*/
+	-webkit-transform: rotate(45deg); /* propiedad css3 que rota el elemento en 45° con prefijo para webkit*/
+	width: 75px; /* definimos el ancho en 75px */
+	z-index: 2; /* definimos un z-index 2 para que este elemento quede sobre el z-index 1 y debajo de z-index 3 */
+}
+/* div que contiene el logo */
+#logo_platzi {
+	display: inline-block; /* indicamos que sea inline-block para poder centrarlo con text-align */
+	height: 200px; /* definimos el alto como 200px */
+	position: relative; /* indicamos que use posiciones relativas para poder usar posiciones absolutas en los divs internos */
+	width: 210px; /* definimos el ancho como 210px */
+}
